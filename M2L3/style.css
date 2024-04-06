@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Handlee&family=Libre+Barcode+39&display=swap');
+
+@keyframes color-change {
+    0% {
+      color: aquamarine;
+}
+  
+    50% {
+      color: chartreuse;
+}
+  
+    100% {
+      color: goldenrod;
+}
+
+}
+
+
 body {
     font-family: Arial,  sans-serif; /* keluarga font */
     font-size: 11px; /* Ukuran font utama pada tag <p></p> */
@@ -9,3 +27,33 @@ h1 {
     font-size: 24px; /* Ukuran font tajuk (header) */
     font-family: Georgia, serif; /* Keluarga font yang digunakan di tajuk (header) */
 }
+#point{
+    color:#333333;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size:17px;
+}
+#barcode{
+    color:black;
+    font-family: "Libre Barcode 39", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.nice{
+    color:#333333;
+    font-family: "Handlee", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+#heading{
+    color:#f36868;
+    background-color:black;
+    display:inline-block;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+pre:hover { animation: color-change 3s infinite; }
